@@ -99,7 +99,6 @@
 		2E27BE3C24C9BD7700C76038 /* GameOfLife */ = {
 			isa = PBXGroup;
 			children = (
-				2E27BE7D24E3E95A00C76038 /* Protocols */,
 				2E27BE6424CF0B5F00C76038 /* Configuration */,
 				2E27BE5B24CC4DA000C76038 /* Model */,
 				2E27BE5A24CC4D8B00C76038 /* Controller */,
@@ -133,6 +132,7 @@
 		2E27BE5B24CC4DA000C76038 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				2E27BE7E24E3E98B00C76038 /* GameBoardController.swift */,
 				2E27BE5C24CC4DB300C76038 /* Cell.swift */,
 				2E27BE5E24CC4FF700C76038 /* Position.swift */,
 				2E27BE6024CC505200C76038 /* Size.swift */,
@@ -159,14 +159,6 @@
 				2E27BE6F24CF138100C76038 /* Info.plist */,
 			);
 			path = GameOfLifeTests;
-			sourceTree = "<group>";
-		};
-		2E27BE7D24E3E95A00C76038 /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-				2E27BE7E24E3E98B00C76038 /* GameBoardController.swift */,
-			);
-			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
