@@ -11,8 +11,7 @@
 		2E27BE4024C9BD7700C76038 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E27BE3F24C9BD7700C76038 /* SceneDelegate.swift */; };
 		2E27BE4724C9BD8200C76038 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E27BE4624C9BD8200C76038 /* Assets.xcassets */; };
 		2E27BE4A24C9BD8200C76038 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E27BE4824C9BD8200C76038 /* LaunchScreen.storyboard */; };
-		2E27BE5624CB6CBD00C76038 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E27BE5524CB6CBD00C76038 /* DetailViewController.swift */; };
-		2E27BE5824CB6D6B00C76038 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E27BE5724CB6D6B00C76038 /* MasterViewController.swift */; };
+		2E27BE5624CB6CBD00C76038 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E27BE5524CB6CBD00C76038 /* MasterViewController.swift */; };
 		2E27BE5D24CC4DB300C76038 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E27BE5C24CC4DB300C76038 /* Cell.swift */; };
 		2E27BE5F24CC4FF700C76038 /* Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E27BE5E24CC4FF700C76038 /* Position.swift */; };
 		2E27BE6124CC505200C76038 /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E27BE6024CC505200C76038 /* Size.swift */; };
@@ -22,8 +21,6 @@
 		2E27BE7624CF144C00C76038 /* GameRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E27BE7524CF144C00C76038 /* GameRules.swift */; };
 		2E27BE7824CF1B4A00C76038 /* CellNeighbors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E27BE7724CF1B4A00C76038 /* CellNeighbors.swift */; };
 		2E27BE7A24CF26AC00C76038 /* GameBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E27BE7924CF26AC00C76038 /* GameBoard.swift */; };
-		2E27BE7C24E3E73D00C76038 /* StartGameOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E27BE7B24E3E73C00C76038 /* StartGameOperation.swift */; };
-		2E27BE7F24E3E98B00C76038 /* GameBoardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E27BE7E24E3E98B00C76038 /* GameBoardController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,8 +40,7 @@
 		2E27BE4624C9BD8200C76038 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E27BE4924C9BD8200C76038 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E27BE4B24C9BD8200C76038 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2E27BE5524CB6CBD00C76038 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		2E27BE5724CB6D6B00C76038 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		2E27BE5524CB6CBD00C76038 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 		2E27BE5C24CC4DB300C76038 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
 		2E27BE5E24CC4FF700C76038 /* Position.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Position.swift; sourceTree = "<group>"; };
 		2E27BE6024CC505200C76038 /* Size.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Size.swift; sourceTree = "<group>"; };
@@ -56,8 +52,6 @@
 		2E27BE7524CF144C00C76038 /* GameRules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameRules.swift; sourceTree = "<group>"; };
 		2E27BE7724CF1B4A00C76038 /* CellNeighbors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellNeighbors.swift; sourceTree = "<group>"; };
 		2E27BE7924CF26AC00C76038 /* GameBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBoard.swift; sourceTree = "<group>"; };
-		2E27BE7B24E3E73C00C76038 /* StartGameOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartGameOperation.swift; sourceTree = "<group>"; };
-		2E27BE7E24E3E98B00C76038 /* GameBoardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBoardController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,8 +117,7 @@
 		2E27BE5A24CC4D8B00C76038 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				2E27BE5524CB6CBD00C76038 /* DetailViewController.swift */,
-				2E27BE5724CB6D6B00C76038 /* MasterViewController.swift */,
+				2E27BE5524CB6CBD00C76038 /* MasterViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -132,14 +125,12 @@
 		2E27BE5B24CC4DA000C76038 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				2E27BE7E24E3E98B00C76038 /* GameBoardController.swift */,
 				2E27BE5C24CC4DB300C76038 /* Cell.swift */,
 				2E27BE5E24CC4FF700C76038 /* Position.swift */,
 				2E27BE6024CC505200C76038 /* Size.swift */,
 				2E27BE7524CF144C00C76038 /* GameRules.swift */,
 				2E27BE7724CF1B4A00C76038 /* CellNeighbors.swift */,
 				2E27BE7924CF26AC00C76038 /* GameBoard.swift */,
-				2E27BE7B24E3E73C00C76038 /* StartGameOperation.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -266,12 +257,9 @@
 				2E27BE3E24C9BD7700C76038 /* AppDelegate.swift in Sources */,
 				2E27BE6124CC505200C76038 /* Size.swift in Sources */,
 				2E27BE5D24CC4DB300C76038 /* Cell.swift in Sources */,
-				2E27BE7F24E3E98B00C76038 /* GameBoardController.swift in Sources */,
-				2E27BE7C24E3E73D00C76038 /* StartGameOperation.swift in Sources */,
 				2E27BE5F24CC4FF700C76038 /* Position.swift in Sources */,
 				2E27BE7624CF144C00C76038 /* GameRules.swift in Sources */,
-				2E27BE5824CB6D6B00C76038 /* MasterViewController.swift in Sources */,
-				2E27BE5624CB6CBD00C76038 /* DetailViewController.swift in Sources */,
+				2E27BE5624CB6CBD00C76038 /* MasterViewController.swift in Sources */,
 				2E27BE4024C9BD7700C76038 /* SceneDelegate.swift in Sources */,
 				2E27BE7824CF1B4A00C76038 /* CellNeighbors.swift in Sources */,
 				2E27BE7A24CF26AC00C76038 /* GameBoard.swift in Sources */,
@@ -358,7 +346,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -412,7 +400,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -429,6 +417,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QZG7FZT37T;
 				INFOPLIST_FILE = GameOfLife/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -436,7 +425,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.GameOfLifeMyVersion;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -447,6 +436,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QZG7FZT37T;
 				INFOPLIST_FILE = GameOfLife/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,7 +444,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.GameOfLifeMyVersion;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};

@@ -8,6 +8,7 @@
 
 import UIKit
 
+@available(iOS 13, *)
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
@@ -18,14 +19,11 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         guard let _ = (scene as? UIWindowScene) else { return }
+
+        let masterView = MasterViewController(gameRules: MyGameRules())
         
-        let contentView = UISplitViewController()
-        let masterView = MasterViewController()
-        
-        masterView.svc = contentView
-        contentView.viewControllers = [masterView, DetailViewController(gameRules: MyGameRules())]
         window = UIWindow(windowScene: scene as! UIWindowScene)
-        window!.rootViewController = contentView
+        window!.rootViewController = masterView
         window!.makeKeyAndVisible()
         
     }
